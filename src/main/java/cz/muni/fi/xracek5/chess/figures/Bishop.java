@@ -4,7 +4,7 @@ import cz.muni.fi.xracek5.chess.Place;
 
 import java.util.List;
 
-public class Bishop extends Figure{
+public class Bishop extends Figure {
         @Override
         public List<Object> getValidMoves(Place[][] board, int x, int y) {
                 return null;

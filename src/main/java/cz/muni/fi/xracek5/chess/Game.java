@@ -13,8 +13,15 @@ public class Game {
                 actualPlayer = "white";
         }
 
-        public void printActualState(){
+        public void printActualState() {
                 System.out.println("ACTUAL STATE");
         }
 
+        public boolean move(int fromX, int fromY, int toX, int toY) {
+                return true;
+        }
+
+        public boolean isOver() {
+                return false;
+        }
 }
